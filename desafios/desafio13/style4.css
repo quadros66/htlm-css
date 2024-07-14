@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+}
+   
+
+table{
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    vertical-align: center;
+}
+
+th.cabecalho {
+    font-weight: bolder;
+    color: white;
+    background-color: #707370;
+    text-align: center;
+}
+
+th {
+    border: 1px solid black;
+    padding: 8px;
+    border-collapse: collapse;
+}
+
+td.disciplinas {
+    text-align: left;
+}
+
+td.media {
+    font-weight: bolder;
+    color: white;
+    background-color: #707370;
+    text-align: left;
+}
+
+td.nota {
+    font-weight: bolder;
+    color: white;
+    background-color: #707370;
+    text-align: center;
+}
